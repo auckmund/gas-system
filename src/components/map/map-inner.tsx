@@ -60,10 +60,10 @@ export default function MapInner({
                   <span style={{ color }}>{cylinder.currentLevel}%</span>
                 </div>
                 <div>
-                  <strong>Refill price:</strong> N${cylinder.refillPrice}
+                  <strong>Refill price:</strong> R{cylinder.refillPrice}
                 </div>
                 <div>
-                  <strong>Rate:</strong> N${cylinder.pricePerKg}/kg
+                  <strong>Rate:</strong> R{cylinder.pricePerKg}/kg
                 </div>
                 <div>
                   <strong>Last Updated:</strong>{" "}

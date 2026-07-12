@@ -84,7 +84,7 @@ export default function AdminBillingPage() {
               <span className="text-foreground">Supplier SaaS:</span> Starter / Growth / Enterprise + per-device fee
             </p>
             <p>
-              <span className="text-foreground">Pay-As-You-Use:</span> N$4/kg consumption billing
+              <span className="text-foreground">Pay-As-You-Use:</span> R4/kg consumption billing
             </p>
             <p>
               <span className="text-foreground">Monthly subscription:</span> Fixed monitoring fee + usage

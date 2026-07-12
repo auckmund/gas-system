@@ -74,7 +74,7 @@ export function LineItemsEditor({ items, taxRate, onChange }: LineItemsEditorPro
           </option>
           {QUOTE_CATALOG.map((item, idx) => (
             <option key={item.description} value={idx}>
-              {item.description} — N${item.unitPrice}/{item.unit}
+              {item.description} — R{item.unitPrice}/{item.unit}
             </option>
           ))}
         </select>

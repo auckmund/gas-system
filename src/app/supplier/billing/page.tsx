@@ -140,7 +140,7 @@ export default function SupplierBillingPage() {
             label="Client billing models"
             value={`${clients.filter((c) => c.billingModel === "consumption").length} PAYG · ${clients.filter((c) => c.billingModel === "subscription").length} sub`}
           />
-          <Info label="Gas rate" value="N$4/kg" />
+          <Info label="Gas rate" value="R4/kg" />
         </CardContent>
       </Card>
 

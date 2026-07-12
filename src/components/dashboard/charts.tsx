@@ -69,7 +69,7 @@ export function DashboardCharts({ data }: { data: SeriesPoint[] }) {
               <XAxis dataKey="month" stroke="rgb(160,160,160)" fontSize={12} />
               <YAxis stroke="rgb(160,160,160)" fontSize={12} />
               <Tooltip contentStyle={tooltipStyle} />
-              <Bar dataKey="revenue" fill="rgb(229,57,53)" name="N$" />
+              <Bar dataKey="revenue" fill="rgb(229,57,53)" name="R" />
             </BarChart>
           </ResponsiveContainer>
         </CardContent>

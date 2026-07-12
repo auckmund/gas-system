@@ -85,7 +85,7 @@ export default function SupplierDashboardPage() {
             invoiceCount={clientInvoices.length}
             footnotes={[
               { label: "Customers", value: String(customers.length) },
-              { label: "Rate", value: "N$4/kg PAYG" },
+              { label: "Rate", value: "R4/kg PAYG" },
             ]}
             recent={[...clientInvoices]
               .sort((a, b) => +new Date(b.date) - +new Date(a.date))

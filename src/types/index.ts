@@ -74,9 +74,9 @@ export interface Cylinder {
   capacityKg: number;
   currentLevel: number;
   currentWeightKg: number;
-  /** Full refill price for this cylinder size (N$) */
+  /** Full refill price for this cylinder size (R) */
   refillPrice: number;
-  /** Pay-as-you-use rate (N$/kg) */
+  /** Pay-as-you-use rate (R/kg) */
   pricePerKg: number;
   lat: number;
   lng: number;

@@ -251,7 +251,7 @@ function generateMockDatabase(): MockDatabase {
       description:
         customer.billingModel === "subscription"
           ? "Monthly LPG monitoring subscription"
-          : `Pay-As-You-Use: ${usage}kg @ N$${GAS_RATE_PER_KG}/kg`,
+          : `Pay-As-You-Use: ${usage}kg @ R${GAS_RATE_PER_KG}/kg`,
       items,
       subtotal: totals.subtotal || amount,
       taxRate: 0,
@@ -378,7 +378,7 @@ function generateMockDatabase(): MockDatabase {
         status,
         date: date.toISOString(),
         dueDate: new Date(date.getTime() + 14 * 86400000).toISOString(),
-        description: `auckmund ${plan.plan} plan · ${deviceCount} devices @ N$15/device`,
+        description: `auckmund ${plan.plan} plan · ${deviceCount} devices @ R15/device`,
       });
     }
   });

@@ -131,7 +131,7 @@ export function RegisterCylinderModal({
 
           <div className="grid gap-3 sm:grid-cols-2">
             <div className="space-y-2">
-              <Label htmlFor="cyl-refill-price">Full refill price (N$)</Label>
+              <Label htmlFor="cyl-refill-price">Full refill price (R)</Label>
               <Input
                 id="cyl-refill-price"
                 type="number"
@@ -141,7 +141,7 @@ export function RegisterCylinderModal({
               />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="cyl-rate">Price per kg (N$)</Label>
+              <Label htmlFor="cyl-rate">Price per kg (R)</Label>
               <Input
                 id="cyl-rate"
                 type="number"

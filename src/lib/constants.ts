@@ -76,7 +76,7 @@ export const MAP_DEFAULT_ZOOM = 6;
 export const GAS_RATE_PER_KG = 4;
 export const CYLINDER_CAPACITIES = [9, 19, 48] as const;
 
-/** Default full-refill retail prices by capacity (N$) */
+/** Default full-refill retail prices by capacity (R) */
 export const CYLINDER_REFILL_PRICES: Record<number, number> = {
   9: 140,
   19: 280,

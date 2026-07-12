@@ -82,7 +82,7 @@ export default function CustomerDashboardPage() {
           invoiceCount={invoices.length}
           footnotes={[
             { label: "Billing model", value: customer?.billingModel ?? "—" },
-            { label: "Rate", value: "N$4/kg" },
+            { label: "Rate", value: "R4/kg" },
           ]}
           recent={[...invoices]
             .sort((a, b) => +new Date(b.date) - +new Date(a.date))

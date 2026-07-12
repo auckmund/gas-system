@@ -140,7 +140,7 @@ export default function CustomerBillingPage() {
             <strong className="capitalize">{customer?.billingModel ?? "consumption"}</strong>
           </div>
           <div>
-            Rate: <strong>N$4/kg</strong>
+            Rate: <strong>R4/kg</strong>
           </div>
           <div>
             Customer: <strong>{customer?.name}</strong>
