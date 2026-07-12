@@ -57,7 +57,7 @@ export default function SupplierDashboardPage() {
 
         <div className="grid gap-4 lg:grid-cols-2">
           <BillingSummaryCard
-            title="Our AUGMUND billing"
+            title="Our auckmund billing"
             href="/supplier/billing"
             collected={platformPaid}
             outstanding={platformOutstanding}

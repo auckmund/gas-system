@@ -16,7 +16,7 @@ const sourceCode = Source_Code_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "AUGMUND | Smart LPG Monitoring",
+  title: "auckmund | Smart LPG Monitoring",
   description:
     "Predictive Gas Management Through Connected Intelligence — IoT LPG cylinder monitoring platform.",
 };

@@ -378,7 +378,7 @@ function generateMockDatabase(): MockDatabase {
         status,
         date: date.toISOString(),
         dueDate: new Date(date.getTime() + 14 * 86400000).toISOString(),
-        description: `AUGMUND ${plan.plan} plan · ${deviceCount} devices @ N$15/device`,
+        description: `auckmund ${plan.plan} plan · ${deviceCount} devices @ N$15/device`,
       });
     }
   });
@@ -396,7 +396,7 @@ function generateMockDatabase(): MockDatabase {
     {
       id: "USR-ADMIN",
       name: "Platform Admin",
-      email: "admin@augmund.com",
+      email: "admin@auckmund.com",
       password: "Admin123!",
       role: "super_admin",
     },

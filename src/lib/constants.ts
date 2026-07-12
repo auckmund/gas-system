@@ -1,12 +1,12 @@
-export const APP_NAME = "AUGMUND";
+export const APP_NAME = "auckmund";
 export const APP_TAGLINE = "Predictive Gas Management Through Connected Intelligence";
-export const APP_FULL_NAME = "AUGMUND Smart LPG Monitoring System";
+export const APP_FULL_NAME = "Auckmund Smart LPG Monitoring System";
 
-export const AUTH_STORAGE_KEY = "augmund_session";
+export const AUTH_STORAGE_KEY = "auckmund_session";
 
 export const DEMO_CREDENTIALS = [
   {
-    email: "admin@augmund.com",
+    email: "admin@auckmund.com",
     password: "Admin123!",
     role: "super_admin" as const,
     label: "Super Admin",

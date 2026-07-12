@@ -69,7 +69,7 @@ export default function SupplierBillingPage() {
     <RoleGuard
       roles={["supplier_admin"]}
       title="Billing"
-      subtitle="Your AUGMUND platform fees and client invoicing"
+      subtitle="Your auckmund platform fees and client invoicing"
     >
       <div className="mb-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <StatCard
@@ -103,7 +103,7 @@ export default function SupplierBillingPage() {
       {unpaidPlatform.length > 0 && (
         <Card className="mb-6 border-primary/40">
           <CardHeader>
-            <CardTitle>Unpaid AUGMUND invoices</CardTitle>
+            <CardTitle>Unpaid auckmund invoices</CardTitle>
           </CardHeader>
           <CardContent className="space-y-2">
             {unpaidPlatform.map((inv) => (
@@ -162,7 +162,7 @@ export default function SupplierBillingPage() {
       {tab === "platform" ? (
         <Card>
           <CardHeader>
-            <CardTitle>AUGMUND SaaS invoices ({sortedPlatform.length})</CardTitle>
+            <CardTitle>auckmund SaaS invoices ({sortedPlatform.length})</CardTitle>
           </CardHeader>
           <CardContent className="p-0">
             <Table>
@@ -259,7 +259,7 @@ export default function SupplierBillingPage() {
             amount: paying.amount,
             description: paying.description,
           }}
-          subtitle="AUGMUND platform invoice"
+          subtitle="auckmund platform invoice"
           onClose={() => setPaying(null)}
           onProcess={(id) => {
             const paid = platformBillingService.payInvoice(id);

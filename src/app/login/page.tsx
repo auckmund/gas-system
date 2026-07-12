@@ -18,7 +18,7 @@ import { authService } from "@/services";
 export default function LoginPage() {
   const { login, session, isLoading } = useAuth();
   const router = useRouter();
-  const [email, setEmail] = useState("admin@augmund.com");
+  const [email, setEmail] = useState("admin@auckmund.com");
   const [password, setPassword] = useState("Admin123!");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);

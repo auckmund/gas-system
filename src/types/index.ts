@@ -159,7 +159,7 @@ export interface Quotation {
   convertedInvoiceId?: string;
 }
 
-/** Platform SaaS fees billed by AUGMUND to suppliers */
+/** Platform SaaS fees billed by auckmund to suppliers */
 export interface PlatformInvoice {
   id: string;
   supplierId: string;
